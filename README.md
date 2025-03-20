@@ -1,16 +1,24 @@
 # project-GROS
-Making Rust better with Go
+<div align="center">
+  <picture>
+    <img alt="GROS - Making Rust better with Go" src="img/gros.png" height="300">
+  </picture>
+  <p>Making Rust better with Go</p>
+</div>
 
 ## Raison d'être
 
-Microsoft has recently announced the porting of the existing Typescript compiler from TypeScript/JavaScript to the native language, Go. Doing so is reducing the compile times by a order of magnitude.
+Microsoft recently [announced](https://devblogs.microsoft.com/typescript/typescript-native-port/) the porting of the existing Typescript compiler from TypeScript/JavaScript to the native language, Go. Doing so is reducing the compile times by a order of magnitude.
 
 One key takeaway from the FAQ item titled "Why Go?" in the project's Github repo:
-Go was chosen for performance reasons. The team evaluated other languages like Rust, C and C++, but found Go to be the best fit for their needs.
+Go was chosen for performance reasons. The team evaluated other languages like Rust, C and C++, but found Go to be the best fit for their needs. Go is designed to be memory safe. It provides features like garbage collection, strong typing, and built-in memory safety mechanisms to prevent common memory-related issues such as buffer overflows, null pointer de-references, and data races.
 
-This has raised the question of what other programming languages could benefit from a similar treatment. Rust is gaining traction in various industries, including systems programming and cloud-native development.
+This has raised the question of what other programming languages could benefit from a similar treatment. 
 
-Compile times in Rust, while improving, are still painfully slow. Go has been optimized for blazing fast compilation time since the very start. Go is designed to be memory safe. It provides features like garbage collection, strong typing, and built-in memory safety mechanisms to prevent common memory-related issues such as buffer overflows, null pointer de-references, and data races.
+Rust is gaining traction in various industries, including systems programming and cloud-native development. Compile times in Rust, while improving, are still painfully slow. 
+
+Go has been optimized for blazing fast compilation time since the very start. 
+
 Rust implements memory safety with its borrow-checker, however so much Rust code makes use of unsafe that it begs the question : Is what Rust really needs a *Garbage Collector*?
 
 The objective of this project is to reimplement Rust in Go, improving Rust's deficiencies with Go's strengths. As this is a merging of Go and Rust, we've decided to name also merge names: the result - Project "GROS".
