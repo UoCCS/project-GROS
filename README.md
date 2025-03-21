@@ -8,7 +8,7 @@
 
 ## Raison d'être
 
-Microsoft recently [announced](https://devblogs.microsoft.com/typescript/typescript-native-port/) the porting of the existing Typescript compiler from TypeScript/JavaScript to the native language, Go. Doing so is reducing the compile times by a order of magnitude.
+Microsoft recently [announced](https://devblogs.microsoft.com/typescript/typescript-native-port/) the porting of the existing Typescript compiler from TypeScript/JavaScript to the native language, Go. Doing so is reducing the compile times by an order of magnitude.
 
 One key takeaway from the FAQ item titled "Why Go?" in the project's Github repo:
 Go was chosen for performance reasons. The team evaluated other languages like Rust, C and C++, but found Go to be the best fit for their needs. Go is designed to be memory safe. It provides features like garbage collection, strong typing, and built-in memory safety mechanisms to prevent common memory-related issues such as buffer overflows, null pointer de-references, and data races.
