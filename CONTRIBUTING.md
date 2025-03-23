@@ -36,7 +36,8 @@ prefix the title of your PR with "MINOR: " if meets one of the following:
 ## Do you want to propose a significant new feature or an important refactoring?
 
 We ask that all discussions about major changes in the codebase happen
-publicly [GitHub](https://github.com/UoCCS/project-GROS/issues) issues.
+publicly in [GitHub](https://github.com/UoCCS/project-GROS/issues) issues.
+Alternatively, you may find it useful to initiate discussions on Reddit in `r/golang` and `r/rust`.
 
 ## Do you have questions about the source code, the build procedure or the development process?
 
