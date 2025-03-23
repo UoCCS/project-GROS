@@ -29,7 +29,7 @@ We have started with the lexer and parser, compiler design is ongoing and we are
 
 ## How to Contribute
 
-Please read our latest [project contribution guide](https://github.com/UoCCS/project-GROS/CONTRIBUTING.md).
+Please read our latest [project contribution guide](https://github.com/UoCCS/project-GROS/blob/main/CONTRIBUTING.md).
 
 ## Getting involved
 
