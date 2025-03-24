@@ -37,7 +37,7 @@ Even if you do not plan to contribute to GROSlang itself, we'd be happy to have 
 
 - Follow our activity on [GitHub issues](https://github.com/UoCCS/project-GROS/issues)
 - Share the repo on social media
-- Contribute code
+- Contribute ideas as issues
 
 ## Acknowledgements
 
